@@ -1,0 +1,127 @@
+/* Media Query Header For Big Screen */
+
+@media screen and (max-width: 1440px) {
+  .icon_remove {
+    display: none !important;
+  }
+  .user_bars_icon {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+   .left_section,
+  .right_section,
+  .center_icons_header {
+    display: none !important;
+  }
+  .icon_ellips_remove {
+    display: none !important;
+  }
+
+  .icon_remove {
+    display: initial !important;
+  }
+  .header{
+    width: 95% !important;
+  }
+
+  
+}
+
+/* Media Query Header For Mobile */
+
+@media screen and (max-width: 425px) {
+  html {
+    font-size: 68% !important;
+  }
+  /* .header_mobile {
+    display: initial;
+  } */
+  .header {
+    justify-content: space-around !important;
+    padding:  0 !important;
+    font-size: 2rem !important;
+    width: 100% !important;
+  }
+  .search_input {
+    display: none;
+  }
+  .search_button .search_icon {
+    font-size: 1.6rem;
+    color: var(--color-grey-light-3);
+    top: -19px;
+    left: 70px;
+    background: var(--color-content);
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -6rem;
+  }
+  .faplus_margin{
+    margin-right: -9px;
+  }
+  .user_bars_position {
+    margin-left: -6rem !important;
+    color: #65676B;
+}
+
+  .left_section,
+  .right_section,
+  .center_icons_header {
+    display: none !important;
+  }
+  .icon_ellips_remove {
+    display: none !important;
+  }
+
+  .icon_remove {
+    display: initial !important;
+  }
+
+  .center_section {
+    padding: 20px 0px 0 0 !important;
+    margin-left: 0% !important;
+  }
+
+  .top__box{
+    grid-template-columns: 1fr 1fr 1fr !important;
+    gap: 6px !important;
+    width: 100% !important;
+    height: 250px !important;
+  }
+  .my__story-card,   .story__card
+  {
+    width: 175px !important;
+    height: 275px !important;
+  }
+
+
+  .story__card-hidden{
+    display: none;
+  }
+
+  
+  .cards-two__input{
+    font-size: 1.8rem !important;
+    padding: 1.2rem 1.5rem !important;
+    font-weight: 100 !important;
+  }
+  .cards-two__B{
+    margin-right: 0rem;
+  }
+  .cards-three__icon-2x-shahid {
+    transform: translateX(75px) !important;
+}
+.cards-three__icon-color-12-shahid {
+  top: -.1rem !important;
+    right: 2.4rem !important;
+  }
+
+  .load{
+    width: 50rem !important;
+  }
+
+}
