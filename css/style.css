@@ -355,7 +355,7 @@ body {
 
 .left_nav:hover {
   background: var(--color-hover);
-  border-radius: 2px;
+  border-radius: 8px;
 }
 .left_nav_img {
   height: 2.8rem;
@@ -1209,7 +1209,7 @@ hr {
   justify-content: space-between;
   align-items: center;
   margin-top: 1rem;
-  margin-bottom: -1rem;
+  /* margin-bottom: -1rem; */
 }
 .aside-heading__top {
   font-size: 1.5rem;
@@ -1250,10 +1250,10 @@ hr {
   padding-bottom: 1rem;
 }
 .side-navL__item {
-  padding: 5px 8px;
+  padding: 0px 8px;
 }
 .side-navL__item:hover {
-  background-color: #dfdfe2;
+  background: var(--color-hover);
   border-radius: 8px;
 }
 .side-navL__link {
@@ -1277,8 +1277,8 @@ hr {
   opacity: 50%;
 }
 .side-navL__user-photo-3 {
-  height: 3.25rem;
-  width: 3.25rem;
+  height: 3rem;
+  width: 3rem;
   border-radius: 50px;
 }
 

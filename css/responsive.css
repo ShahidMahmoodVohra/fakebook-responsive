@@ -1,5 +1,6 @@
 /* Media Query Header For Big Screen */
 
+
 @media screen and (max-width: 1440px) {
   .icon_remove {
     display: none !important;
@@ -7,6 +8,91 @@
   .user_bars_icon {
     display: none;
   }
+
+  .header{
+    max-width: 1440px !important;
+    width: 100% !important;
+  }
+  .load{
+    margin: 3rem auto 1rem !important;
+  }
+
+  .smash-code-btn-load{
+    padding: 12px 24px !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+
+  .center_icons_header {
+    padding: 12px 20px !important;
+  }
+
+  .center_icons_header i.active::after {
+  width: 7rem !important;
+  }
+
+  .center_section{
+    margin-left: 23% !important;
+  }
+
+  .top__box {
+    margin-left: 10% !important;
+  }
+
+  hr {
+    width: 90% !important;
+    margin: 1.5rem 1.5rem 1.5rem 2.5rem !important;
+  }
+
+
+  .story__card-hidden{
+    display: none !important;
+  }
+
+  .smash-code {
+    margin: 25px auto !important;
+  }
+  .smash-code-2{
+    transform: translateY(12px) !important;
+  }
+
+  .cards-three{
+    margin: -12px auto !important;
+  }
+  .cards-three-2{
+    margin: -34px auto !important;
+  }
+
+  .load{
+    margin: 6rem 0 0 2.5rem !important;
+  }
+
+  .smash-code-btn-load{
+    padding: 10px 20px !important;
+  }
+
+  .aside-heading {
+    margin-bottom: 1rem !important;
+  }
+
+  .aside-heading__top {
+    font-size: 1.3rem !important;
+    font-weight: 900 !important;
+  }
+
+  .aside-heading__3dots {
+    padding: 0 1.5rem;
+  }
+
+  .side-navL__item {
+    padding: 2px 8px !important;
+  }
+
+  .side-navL__link {
+    padding: 0.8rem 0 !important;
+  }
+  
 }
 @media screen and (max-width: 768px) {
   .left_section,
@@ -57,9 +143,9 @@
 /* Media Query Header For Mobile */
 
 @media screen and (max-width: 425px) {
-  /* * {
-    box-sizing: border-box !important;
-  } */
+   html{
+    font-size: 60% !important;
+   }
   .header {
     justify-content: space-around !important;
     padding: 0 !important;
@@ -163,9 +249,7 @@
   .cards-two__font {
     padding: 0.5rem !important;
   }
-  /* .cards-two__B {
-    padding: 8px 15px 8px 0 !important;
-  } */
+
   .cards-two__link {
     padding: 0.5rem 1rem !important;
   }
