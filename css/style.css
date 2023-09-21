@@ -51,7 +51,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1350px;
+  /* max-width: 1350px; */
   width: 100%;
   position: fixed;
   top: 0;
@@ -79,6 +79,9 @@ body {
   cursor: pointer;
 }
 
+.header_logo {
+  width: 20%;
+}
 .search_bar,
 .header_logo {
   display: flex;
@@ -123,7 +126,8 @@ body {
   font-weight: 100;
 }
 .center_icons {
-  margin-right: 0;
+  margin: 0 auto;
+  max-width: 603px;
   display: flex;
   padding: 0.8rem;
 }
@@ -171,9 +175,11 @@ body {
 
 .user_nav {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
-  margin-right: 0.5rem;
+  width: 20%;
+  /* margin-right: 0.5rem; */
+
 }
 
 .nav_icon {
@@ -239,11 +245,12 @@ body {
 }
 
 .user_bars {
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   margin-right: 2rem;
   position: relative;
+
 }
 
 .user_bars_icon i {
@@ -293,20 +300,28 @@ body {
 
 .main_section {
   display: flex;
-  margin-top: 60px;
   background: #f0f2f5;
+  max-width: 1300px;
+  margin: 60px auto 0 auto;
+  /* overflow: hidden;
+  max-height: 100vh; */
 }
 
 .left_section {
-  flex: 0 0 22%;
-  height: 95vh;
-  height: 80vh;
-  width: 22%;
+  width: 20%;
+  /* flex: 0 0 22%; */
+  /* height: 95vh; */
+  /* height: 80vh; */
+  /* width: 22%; */
   overflow: hidden;
   overflow-y: scroll;
   background: #f0f2f5;
   padding: 20px 6px 5px 0px;
-  position: fixed;
+  position: sticky;
+  top: 60px;
+  left: 0;
+  overflow: auto;
+  height: calc(100vh - 60px);
   /* border-bottom: 1px solid #ced0d4; */
 }
 
@@ -410,12 +425,14 @@ hr {
 /* CENTER SECTION START */
 
 .center_section {
-  width: 50%;
+  /* width: 50%; */
   /* flex: 1; */
   height: auto;
-  padding: 20px 20px 0 20px;
+  padding: 20px 0 0 0;
+  margin: 0 auto;
+  max-width: 603px;
   background: #f0f2f5;
-  margin-left: 26.5%;
+  /* margin-left: 26.5%; */
 }
 
 .center_section::-webkit-scrollbar {
@@ -1170,16 +1187,20 @@ hr {
 /* CSS For Right Side Bar */
 
 .right_section {
-  flex: 0 0 22%;
-  height: 95vh;
-  height: 80vh;
-  width: 22%;
+  /* flex: 0 0 22%; */
+  /* height: 95vh; */
+  /* height: 80vh; */
+  /* width: 22%; */
+  width: 20%;
   overflow: hidden;
   overflow-y: scroll;
   background: #f0f2f5;
   padding: 20px 10px 5px 6px;
-  position: fixed;
+  position: sticky;
+  top: 60px;
   right: 0;
+  overflow: auto;
+  height: calc(100vh - 60px);
 }
 .sidebar-R {
   flex: 0 0 22%;

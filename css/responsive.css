@@ -9,10 +9,10 @@
     display: none;
   }
 
-  .header{
+  /* .header{
     max-width: 1440px !important;
     width: 100% !important;
-  }
+  } */
   .load{
     margin: 3rem auto 1rem !important;
   }
@@ -132,6 +132,7 @@
     border-radius: 50px !important;
   }
   .user_bars {
+    display: flex;
     margin-right: -7rem !important;
   }
 
