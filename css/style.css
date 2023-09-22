@@ -16,7 +16,6 @@
 *::before,
 *::after {
   box-sizing: inherit;
-  
 }
 
 html {
@@ -179,7 +178,6 @@ body {
   align-items: center;
   width: 20%;
   /* margin-right: 0.5rem; */
-
 }
 
 .nav_icon {
@@ -250,7 +248,6 @@ body {
   align-items: center;
   margin-right: 2rem;
   position: relative;
-
 }
 
 .user_bars_icon i {
@@ -296,7 +293,7 @@ body {
   border: 1px solid #65676b;
 }
 
-/* Main Section */
+/* -----------------Main Section----------------- */
 
 .main_section {
   display: flex;
@@ -313,7 +310,7 @@ body {
   /* height: 95vh; */
   /* height: 80vh; */
   /* width: 22%; */
-  overflow: hidden;
+  /* overflow: hidden; */
   overflow-y: scroll;
   background: #f0f2f5;
   padding: 20px 6px 5px 0px;
@@ -344,9 +341,9 @@ body {
 
 .left_nav {
   display: flex;
-  margin: 0 10px;
+  margin: 0;
   align-items: center;
-  padding: 10px 0px 5px 5px;
+  padding: 10px 0px 5px 0px;
   cursor: pointer;
   width: 100%;
 }
@@ -446,6 +443,7 @@ hr {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   gap: 6px;
   margin-left: 3%;
+  position: relative;
 }
 
 .my__story-card {
@@ -561,6 +559,20 @@ hr {
   font-size: 1.2rem;
   font-weight: bold;
   color: #fff;
+}
+.icon__arrow{
+  position: absolute;
+  top: 40%;
+  left: 86%;
+  background: #fff;
+  height: 45px;
+  width: 45px;
+  font-size: 2rem;
+  border-radius: 50px;
+  padding: 1.4rem 1rem 2rem 1.5rem;
+  cursor: pointer;
+  color: var(--color-grey-light-3);
+
 }
 
 @keyframes pulsate {
@@ -756,7 +768,6 @@ hr {
   border-radius: 50px;
 }
 .smash-code-comments-bar-icon:hover {
-  /* background-color: #d8d8d8; */
   background-color: #e7e7e9;
   outline: none;
 }
@@ -1020,98 +1031,7 @@ hr {
   margin-left: 19px !important;
 }
 
-/* .cards-four {
-  transform: translateY(3rem);
-  align-items: center;
-  width: 53rem;
-  height: auto;
-  margin: 0 auto;
-}
-.cards-four__header-four {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  font-size: 1.5rem;
-  width: 100%;
-  height: 6.5rem;
-  background-color: #fff;
-  border-bottom: 1px solid #e4e6eb;
-  border-top-left-radius: 8px 8px;
-  border-top-right-radius: 8px 8px;
-}
-.cards-four__photo-shahid {
-  height: 4rem;
-  width: 4rem;
-  border-radius: 100px;
-  position: absolute;
-  top: 0.5rem;
-  left: 1.6rem;
-  cursor: pointer;
-}
-.cards-four__heading {
-  position: relative;
-  left: 25px;
-  bottom: 10px;
-  cursor: pointer;
-  transition: all 0.5s;
-}
-.cards-four__heading i {
-  position: absolute;
-  top: 21px;
-  right: 38px;
-  font-size: 1rem;
-}
 
-.cards-four__para-color {
-  color: #95979a;
-  position: relative;
-  top: 20px;
-  right: 131px;
-  margin-bottom: 25px;
-  cursor: pointer;
-}
-
-.cards-four__name:hover,
-.cards-four__para-color:hover {
-  text-decoration: underline;
-}
-
-.cards-four__icon-2x {
-  display: flex;
-  transform: translateX(13rem);
-}
-.cards-four__icon-color-12 {
-  display: flex;
-  height: 2.5rem;
-  width: 2.5rem;
-  padding: 0.2rem;
-  transform: skew(-42deg, 44deg);
-  position: relative;
-  top: 0;
-  left: 5.5rem;
-}
-.cards-four__icon-color-12:hover {
-  background-color: #dfdfe2;
-  border-radius: 100px;
-}
-.cards-four__shahid-details {
-  display: flex;
-  flex-direction: column;
-  font-size: 1.3rem;
-  color: #59595a;
-  font-weight: 400;
-  width: 100%;
-  height: 4rem;
-  padding: 0rem 2rem;
-  transform: translateY(-0.1rem);
-  background-color: #fff;
-  border-bottom: 1px solid #e4e6eb;
-}
-.cards-four__img-cartoon {
-  width: 100%;
-  height: 30rem;
-  transform: translateY(-0.3px);
-} */
 .cards-two-shahid {
   display: flex;
   justify-content: center;
@@ -1140,11 +1060,6 @@ hr {
   display: flex;
   transform: translateX(106px);
 }
-/* .cards-four__img-emoji {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-} */
 .cards-three__icon-color-12-shahid {
   display: flex;
   height: 3rem;
@@ -1161,28 +1076,6 @@ hr {
   background-color: #dfdfe2;
   border-radius: 50%;
 }
-/* .cards-four__icon-color-13 {
-  display: flex;
-  height: 2.5rem;
-  width: 2.5rem;
-  padding: 0.2rem;
-}
-.cards-four__friends-like {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  position: relative;
-  top: 0;
-  left: 2rem;
-}
-.cards-four__friends-like-1 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  position: absolute;
-  top: 0;
-  left: 4rem;
-} */
 
 /* CSS For Right Side Bar */
 
@@ -1204,6 +1097,7 @@ hr {
 }
 .sidebar-R {
   flex: 0 0 22%;
+  flex: 0 0 20%;
   display: flex;
   flex-direction: column;
 }
@@ -1230,11 +1124,9 @@ hr {
   justify-content: space-between;
   align-items: center;
   margin-top: 1rem;
-  /* margin-bottom: -1rem; */
 }
 .aside-heading__top {
   font-size: 1.5rem;
-  /* color: #59595a; */
   color: #86878b;
   font-weight: 500;
 }
@@ -1267,7 +1159,6 @@ hr {
   font-size: 1.3rem;
   color: #59595a;
   font-weight: bolder;
-  /* margin: 1rem 0 0 1rem; */
   padding-bottom: 1rem;
 }
 .side-navL__item {
@@ -1357,10 +1248,10 @@ hr {
   display: flex;
   position: relative;
   bottom: 6.5rem;
-  left: 8rem;
+  left: 6rem;
 }
 .friends__btn-1 {
-  padding: 0.9rem 2rem;
+  padding: 0.9rem 1.5rem;
   margin: 0 0.3rem;
   border: 1px solid transparent;
   border-radius: 5px;
@@ -1369,7 +1260,7 @@ hr {
   cursor: pointer;
 }
 .friends__btn-2 {
-  padding: 0.9rem 2rem;
+  padding: 1rem 2rem;
   margin: 0 0.3rem;
   border: 1px solid transparent;
   border-radius: 5px;
@@ -1377,10 +1268,7 @@ hr {
   background-color: #e4e6eb;
   cursor: pointer;
 }
-/* .friends:hover {
-  background-color: #dfdfe2;
-  border-radius: 8px;
-} */
+
 .friends__btn-2:hover {
   background-color: #dfdfe2;
 }
